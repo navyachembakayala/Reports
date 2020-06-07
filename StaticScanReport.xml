@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.0.3" sequence="0" timestamp="1591524170493" analysisTimestamp="1591550037608" release="">
+  <Project projectName="">
+    <Jar>/root/Pictures/VulnerabilityScan.zip</Jar>
+  </Project>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="com.attra.scan.browser.BrowserDriverFactory">
+      <SourceLine classname="com.attra.scan.browser.BrowserDriverFactory" sourcefile="BrowserDriverFactory.java" sourcepath="com/attra/scan/browser/BrowserDriverFactory.java"/>
+    </Class>
+    <Field classname="com.attra.scan.browser.BrowserDriverFactory" name="driver" signature="Lorg/openqa/selenium/WebDriver;" isStatic="true">
+      <SourceLine classname="com.attra.scan.browser.BrowserDriverFactory" sourcefile="BrowserDriverFactory.java" sourcepath="com/attra/scan/browser/BrowserDriverFactory.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="UUF_UNUSED_FIELD" priority="2" rank="18" abbrev="UuF" category="PERFORMANCE">
+    <Class classname="com.attra.scan.browser.BrowserDriverFactoryDefectDojo">
+      <SourceLine classname="com.attra.scan.browser.BrowserDriverFactoryDefectDojo" sourcefile="BrowserDriverFactoryDefectDojo.java" sourcepath="com/attra/scan/browser/BrowserDriverFactoryDefectDojo.java"/>
+    </Class>
+    <Field classname="com.attra.scan.browser.BrowserDriverFactoryDefectDojo" name="driver" signature="Lorg/openqa/selenium/WebDriver;" isStatic="true">
+      <SourceLine classname="com.attra.scan.browser.BrowserDriverFactoryDefectDojo" sourcefile="BrowserDriverFactoryDefectDojo.java" sourcepath="com/attra/scan/browser/BrowserDriverFactoryDefectDojo.java"/>
+    </Field>
+  </BugInstance>
+  <BugInstance type="DMI_HARDCODED_ABSOLUTE_FILENAME" priority="2" rank="17" abbrev="DMI" category="STYLE">
+    <Class classname="com.attra.scan.test.WebSiteNavigation">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigation" sourcefile="WebSiteNavigation.java" sourcepath="com/attra/scan/test/WebSiteNavigation.java"/>
+    </Class>
+    <Method classname="com.attra.scan.test.WebSiteNavigation" name="Base_Url" signature="()Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigation" start="26" end="40" startBytecode="0" endBytecode="30" sourcefile="WebSiteNavigation.java" sourcepath="com/attra/scan/test/WebSiteNavigation.java"/>
+    </Method>
+    <String value="/root/Downloads/UserInputCredentials.xlsx" role="FILE_NAME"/>
+    <SourceLine classname="com.attra.scan.test.WebSiteNavigation" start="26" end="26" startBytecode="6" endBytecode="6" sourcefile="WebSiteNavigation.java" sourcepath="com/attra/scan/test/WebSiteNavigation.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_HARDCODED_ABSOLUTE_FILENAME" priority="2" rank="17" abbrev="DMI" category="STYLE">
+    <Class classname="com.attra.scan.test.WebSiteNavigation">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigation" sourcefile="WebSiteNavigation.java" sourcepath="com/attra/scan/test/WebSiteNavigation.java"/>
+    </Class>
+    <Method classname="com.attra.scan.test.WebSiteNavigation" name="Password" signature="()Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigation" start="64" end="78" startBytecode="0" endBytecode="33" sourcefile="WebSiteNavigation.java" sourcepath="com/attra/scan/test/WebSiteNavigation.java"/>
+    </Method>
+    <String value="/root/Downloads/UserInputCredentials.xlsx" role="FILE_NAME"/>
+    <SourceLine classname="com.attra.scan.test.WebSiteNavigation" start="64" end="64" startBytecode="6" endBytecode="6" sourcefile="WebSiteNavigation.java" sourcepath="com/attra/scan/test/WebSiteNavigation.java"/>
+  </BugInstance>
+  <BugInstance type="DMI_HARDCODED_ABSOLUTE_FILENAME" priority="2" rank="17" abbrev="DMI" category="STYLE">
+    <Class classname="com.attra.scan.test.WebSiteNavigation">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigation" sourcefile="WebSiteNavigation.java" sourcepath="com/attra/scan/test/WebSiteNavigation.java"/>
+    </Class>
+    <Method classname="com.attra.scan.test.WebSiteNavigation" name="UserName" signature="()Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigation" start="44" end="60" startBytecode="0" endBytecode="33" sourcefile="WebSiteNavigation.java" sourcepath="com/attra/scan/test/WebSiteNavigation.java"/>
+    </Method>
+    <String value="/root/Downloads/UserInputCredentials.xlsx" role="FILE_NAME"/>
+    <SourceLine classname="com.attra.scan.test.WebSiteNavigation" start="44" end="44" startBytecode="6" endBytecode="6" sourcefile="WebSiteNavigation.java" sourcepath="com/attra/scan/test/WebSiteNavigation.java"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.attra.scan.test.WebSiteNavigation">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigation" sourcefile="WebSiteNavigation.java" sourcepath="com/attra/scan/test/WebSiteNavigation.java"/>
+    </Class>
+    <Method classname="com.attra.scan.test.WebSiteNavigation" name="Password" signature="()Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigation" start="64" end="78" startBytecode="0" endBytecode="215" sourcefile="WebSiteNavigation.java" sourcepath="com/attra/scan/test/WebSiteNavigation.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.attra.scan.test.WebSiteNavigation">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigation" sourcefile="WebSiteNavigation.java" sourcepath="com/attra/scan/test/WebSiteNavigation.java"/>
+    </Class>
+    <Method classname="com.attra.scan.test.WebSiteNavigation" name="UserName" signature="()Ljava/lang/String;" isStatic="true">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigation" start="44" end="60" startBytecode="0" endBytecode="215" sourcefile="WebSiteNavigation.java" sourcepath="com/attra/scan/test/WebSiteNavigation.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE">
+    <Class classname="com.attra.scan.test.WebSiteNavigationDefectDojo">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigationDefectDojo" sourcefile="WebSiteNavigationDefectDojo.java" sourcepath="com/attra/scan/test/WebSiteNavigationDefectDojo.java"/>
+    </Class>
+    <Method classname="com.attra.scan.test.WebSiteNavigationDefectDojo" name="ImportScan" signature="()V" isStatic="false">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigationDefectDojo" start="97" end="117" startBytecode="0" endBytecode="76" sourcefile="WebSiteNavigationDefectDojo.java" sourcepath="com/attra/scan/test/WebSiteNavigationDefectDojo.java"/>
+    </Method>
+    <LocalVariable name="wait" register="1" pc="15" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.attra.scan.test.WebSiteNavigationDefectDojo" start="97" end="97" startBytecode="14" endBytecode="14" sourcefile="WebSiteNavigationDefectDojo.java" sourcepath="com/attra/scan/test/WebSiteNavigationDefectDojo.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="wait"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="15" abbrev="DLS" category="STYLE">
+    <Class classname="com.attra.scan.test.WebSiteNavigationDefectDojo">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigationDefectDojo" sourcefile="WebSiteNavigationDefectDojo.java" sourcepath="com/attra/scan/test/WebSiteNavigationDefectDojo.java"/>
+    </Class>
+    <Method classname="com.attra.scan.test.WebSiteNavigationDefectDojo" name="Product_Screen" signature="()V" isStatic="false">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigationDefectDojo" start="81" end="93" startBytecode="0" endBytecode="62" sourcefile="WebSiteNavigationDefectDojo.java" sourcepath="com/attra/scan/test/WebSiteNavigationDefectDojo.java"/>
+    </Method>
+    <LocalVariable name="wait1" register="4" pc="75" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.attra.scan.test.WebSiteNavigationDefectDojo" start="86" end="86" startBytecode="73" endBytecode="73" sourcefile="WebSiteNavigationDefectDojo.java" sourcepath="com/attra/scan/test/WebSiteNavigationDefectDojo.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="wait1"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE">
+    <Class classname="com.attra.scan.test.WebSiteNavigationDefectDojo">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigationDefectDojo" sourcefile="WebSiteNavigationDefectDojo.java" sourcepath="com/attra/scan/test/WebSiteNavigationDefectDojo.java"/>
+    </Class>
+    <Method classname="com.attra.scan.test.WebSiteNavigationDefectDojo" name="ImportScan" signature="()V" isStatic="false">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigationDefectDojo" start="97" end="117" startBytecode="0" endBytecode="76" sourcefile="WebSiteNavigationDefectDojo.java" sourcepath="com/attra/scan/test/WebSiteNavigationDefectDojo.java"/>
+    </Method>
+    <LocalVariable name="TestScreenResult" register="5" pc="193" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.attra.scan.test.WebSiteNavigationDefectDojo" start="112" end="112" startBytecode="191" endBytecode="191" sourcefile="WebSiteNavigationDefectDojo.java" sourcepath="com/attra/scan/test/WebSiteNavigationDefectDojo.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="TestScreenResult"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.attra.scan.test.WebSiteNavigationDefectDojo">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigationDefectDojo" sourcefile="WebSiteNavigationDefectDojo.java" sourcepath="com/attra/scan/test/WebSiteNavigationDefectDojo.java"/>
+    </Class>
+    <Method classname="com.attra.scan.test.WebSiteNavigationDefectDojo" name="GetDateinJava" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigationDefectDojo" start="72" end="75" startBytecode="0" endBytecode="109" sourcefile="WebSiteNavigationDefectDojo.java" sourcepath="com/attra/scan/test/WebSiteNavigationDefectDojo.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.attra.scan.test.WebSiteNavigationDefectDojo">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigationDefectDojo" sourcefile="WebSiteNavigationDefectDojo.java" sourcepath="com/attra/scan/test/WebSiteNavigationDefectDojo.java"/>
+    </Class>
+    <Method classname="com.attra.scan.test.WebSiteNavigationDefectDojo" name="ImportScan" signature="()V" isStatic="false">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigationDefectDojo" start="97" end="117" startBytecode="0" endBytecode="343" sourcefile="WebSiteNavigationDefectDojo.java" sourcepath="com/attra/scan/test/WebSiteNavigationDefectDojo.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="NM_METHOD_NAMING_CONVENTION" priority="2" rank="16" abbrev="Nm" category="BAD_PRACTICE">
+    <Class classname="com.attra.scan.test.WebSiteNavigationDefectDojo">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigationDefectDojo" sourcefile="WebSiteNavigationDefectDojo.java" sourcepath="com/attra/scan/test/WebSiteNavigationDefectDojo.java"/>
+    </Class>
+    <Method classname="com.attra.scan.test.WebSiteNavigationDefectDojo" name="SelectProduct" signature="()V" isStatic="false">
+      <SourceLine classname="com.attra.scan.test.WebSiteNavigationDefectDojo" start="57" end="70" startBytecode="0" endBytecode="213" sourcefile="WebSiteNavigationDefectDojo.java" sourcepath="com/attra/scan/test/WebSiteNavigationDefectDojo.java"/>
+    </Method>
+  </BugInstance>
+  <BugInstance type="DMI_HARDCODED_ABSOLUTE_FILENAME" priority="2" rank="17" abbrev="DMI" category="STYLE">
+    <Class classname="com.attra.scan.test.ZapSecurityTest">
+      <SourceLine classname="com.attra.scan.test.ZapSecurityTest" sourcefile="ZapSecurityTest.java" sourcepath="com/attra/scan/test/ZapSecurityTest.java"/>
+    </Class>
+    <Method classname="com.attra.scan.test.ZapSecurityTest" name="testVulnerabilitiesAfterLogin" signature="()V" isStatic="false">
+      <SourceLine classname="com.attra.scan.test.ZapSecurityTest" start="136" end="158" startBytecode="0" endBytecode="40" sourcefile="ZapSecurityTest.java" sourcepath="com/attra/scan/test/ZapSecurityTest.java"/>
+    </Method>
+    <String value="/root/Pictures/report.xml" role="FILE_NAME"/>
+    <SourceLine classname="com.attra.scan.test.ZapSecurityTest" start="152" end="152" startBytecode="66" endBytecode="66" sourcefile="ZapSecurityTest.java" sourcepath="com/attra/scan/test/ZapSecurityTest.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="26">
+    <MissingClass>org.apache.log4j.Logger</MissingClass>
+    <MissingClass>org.apache.poi.xssf.usermodel.XSSFCell</MissingClass>
+    <MissingClass>org.apache.poi.xssf.usermodel.XSSFRow</MissingClass>
+    <MissingClass>org.apache.poi.xssf.usermodel.XSSFSheet</MissingClass>
+    <MissingClass>org.apache.poi.xssf.usermodel.XSSFWorkbook</MissingClass>
+    <MissingClass>org.junit.internal.TextListener</MissingClass>
+    <MissingClass>org.junit.runner.JUnitCore</MissingClass>
+    <MissingClass>org.openqa.selenium.By</MissingClass>
+    <MissingClass>org.openqa.selenium.Proxy</MissingClass>
+    <MissingClass>org.openqa.selenium.WebDriver</MissingClass>
+    <MissingClass>org.openqa.selenium.WebDriver$Options</MissingClass>
+    <MissingClass>org.openqa.selenium.WebDriver$Timeouts</MissingClass>
+    <MissingClass>org.openqa.selenium.WebDriver$Window</MissingClass>
+    <MissingClass>org.openqa.selenium.WebElement</MissingClass>
+    <MissingClass>org.openqa.selenium.firefox.FirefoxDriver</MissingClass>
+    <MissingClass>org.openqa.selenium.firefox.FirefoxOptions</MissingClass>
+    <MissingClass>org.openqa.selenium.interactions.Action</MissingClass>
+    <MissingClass>org.openqa.selenium.interactions.Actions</MissingClass>
+    <MissingClass>org.openqa.selenium.support.ui.ExpectedConditions</MissingClass>
+    <MissingClass>org.openqa.selenium.support.ui.Select</MissingClass>
+    <MissingClass>org.openqa.selenium.support.ui.WebDriverWait</MissingClass>
+    <MissingClass>org.zaproxy.clientapi.core.ApiResponseElement</MissingClass>
+    <MissingClass>org.zaproxy.clientapi.core.ClientApi</MissingClass>
+    <MissingClass>org.zaproxy.clientapi.gen.Ascan</MissingClass>
+    <MissingClass>org.zaproxy.clientapi.gen.Core</MissingClass>
+    <MissingClass>org.zaproxy.clientapi.gen.Spider</MissingClass>
+  </Errors>
+  <FindBugsSummary timestamp="Sun, 7 Jun 2020 06:02:50 -0400" total_classes="9" referenced_classes="299" total_bugs="14" total_size="278" num_packages="4" java_version="11.0.7-ea" vm_version="11.0.7-ea+9-post-Debian-1" cpu_seconds="60.19" clock_seconds="58.10" peak_mbytes="186.82" alloc_mbytes="498.00" gc_seconds="0.81" priority_2="12" priority_1="2">
+    <PackageStats package="com.attra.scan" total_bugs="0" total_types="1" total_size="9">
+      <ClassStats class="com.attra.scan.ScanProgress" sourceFile="ScanProgress.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.attra.scan.browser" total_bugs="2" total_types="2" total_size="18" priority_2="2">
+      <ClassStats class="com.attra.scan.browser.BrowserDriverFactory" sourceFile="BrowserDriverFactory.java" interface="false" size="9" bugs="1" priority_2="1"/>
+      <ClassStats class="com.attra.scan.browser.BrowserDriverFactoryDefectDojo" sourceFile="BrowserDriverFactoryDefectDojo.java" interface="false" size="9" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.attra.scan.test" total_bugs="12" total_types="5" total_size="235" priority_2="10" priority_1="2">
+      <ClassStats class="com.attra.scan.test.AllTestCases" sourceFile="AllTestCases.java" interface="false" size="3" bugs="0"/>
+      <ClassStats class="com.attra.scan.test.WebSiteNavigation" sourceFile="WebSiteNavigation.java" interface="false" size="53" bugs="5" priority_2="5"/>
+      <ClassStats class="com.attra.scan.test.WebSiteNavigationDefectDojo" sourceFile="WebSiteNavigationDefectDojo.java" interface="false" size="74" bugs="6" priority_2="4" priority_1="2"/>
+      <ClassStats class="com.attra.scan.test.ZapSecurityTest" sourceFile="ZapSecurityTest.java" interface="false" size="73" bugs="1" priority_2="1"/>
+      <ClassStats class="com.attra.scan.test.ZapSecurityTestDefectDojo" sourceFile="ZapSecurityTestDefectDojo.java" interface="false" size="32" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.attra.scan.util" total_bugs="0" total_types="1" total_size="16">
+      <ClassStats class="com.attra.scan.util.CustomProgressBar" sourceFile="CustomProgressBar.java" interface="false" size="16" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="5600" invocations="1648" avgMicrosecondsPerInvocation="3398" maxMicrosecondsPerInvocation="136459" standardDeviationMicrosecondsPerInvocation="10506"/>
+      <ClassProfile name="edu.umd.cs.findbugs.FindBugs2" totalMilliseconds="5489" invocations="2" avgMicrosecondsPerInvocation="2744653" maxMicrosecondsPerInvocation="2892059" standardDeviationMicrosecondsPerInvocation="147406"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="2710" invocations="299" avgMicrosecondsPerInvocation="9065" maxMicrosecondsPerInvocation="179271" standardDeviationMicrosecondsPerInvocation="19951"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="2496" invocations="1658" avgMicrosecondsPerInvocation="1505" maxMicrosecondsPerInvocation="84632" standardDeviationMicrosecondsPerInvocation="5533"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="2397" invocations="299" avgMicrosecondsPerInvocation="8017" maxMicrosecondsPerInvocation="111616" standardDeviationMicrosecondsPerInvocation="16517"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="1603" invocations="677" avgMicrosecondsPerInvocation="2369" maxMicrosecondsPerInvocation="53767" standardDeviationMicrosecondsPerInvocation="4688"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="813" invocations="299" avgMicrosecondsPerInvocation="2722" maxMicrosecondsPerInvocation="79960" standardDeviationMicrosecondsPerInvocation="6651"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="690" invocations="393" avgMicrosecondsPerInvocation="1756" maxMicrosecondsPerInvocation="190506" standardDeviationMicrosecondsPerInvocation="10839"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="634" invocations="1563" avgMicrosecondsPerInvocation="405" maxMicrosecondsPerInvocation="22445" standardDeviationMicrosecondsPerInvocation="1457"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="597" invocations="299" avgMicrosecondsPerInvocation="1999" maxMicrosecondsPerInvocation="76453" standardDeviationMicrosecondsPerInvocation="6713"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="593" invocations="299" avgMicrosecondsPerInvocation="1986" maxMicrosecondsPerInvocation="177678" standardDeviationMicrosecondsPerInvocation="13162"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="583" invocations="299" avgMicrosecondsPerInvocation="1952" maxMicrosecondsPerInvocation="111322" standardDeviationMicrosecondsPerInvocation="7783"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
